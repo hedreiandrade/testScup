@@ -1,5 +1,5 @@
 Olá, meu nome é Hedrei.
-Sou desenvolver Back-and(PHP) e Front-end a mais de 7 anos.
+Sou desenvolver Back-and(PHP) e Front-end a mais de 12 anos.
 
 Para executar a aplicação acesso o link : http://localhost/testscup/
 
