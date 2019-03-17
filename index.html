@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html land="pt-BR">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	   <title>Teste Scup</title>
+	  <meta name="description" content="Teste Scup" />
+	  <meta name="robots" content="index, follow" />
+	  <meta name="author" content="Hedrei Andrade">
+	  <link rel="stylesheet" href="css/bootstrap.min.css" />
+	  <!-- <link rel="stylesheet" href="css/main.css" /> -->
+	  <link rel="stylesheet" href="css/main.min.css" />
+	  <link rel="stylesheet" />
+	</head>
+	<body>
+		<header class="masthead">
+			<h1 class="logo muted innerLogo">scup<span class="plus"> Fale </span><span class="plus1">+</span><span class="plus2">+</span><span class="plus3">+</span></h1>
+		</header>
+
+		<span class="line"><p></p></span>
+
+		<div class="menu muted innerPlans">
+			<p class="muted titlePlans">Comparar Planos</p>
+			<ul>
+				<li>
+					<label for="origin">Origem</label>
+					<select id="orig" class="origin" class="selectpicker" onchange="ddds()">
+					  <option value="0">DDD</option>
+					  <option>011</option>
+					  <option>016</option>
+					  <option>017</option>
+					  <option>018</option>
+					</select>
+				</li>
+				<li>
+					<i class="icon-plus-sign"></i>
+				</li>
+				<li>
+					<label for="destination">Destino</label>
+					<select id="dest" class="destination" class="selectpicker" onchange="ddds()">
+					  <option value="0">DDD</option>
+					  <option>011</option>
+					  <option>016</option>
+					  <option>017</option>
+					  <option>018</option>
+					</select>
+				</li>
+				<li>
+					<i class="icon-plus-sign"></i>
+				</li>
+				<li>
+					<div class="form-group">
+					  <label for="valueTime">Tempo</label>
+					  <input onchange="time()" type="number" class="form-control" id="valueTime" placeholder="MM">
+					</div>
+				</li>
+			</ul>
+			<div id="errorMsg" class="alert alert-danger" style="display: none"></div>
+		</div>
+
+		<span class="line2"><p></p></span>
+
+		<div class="calculation muted innerCalculation">
+			<ul>
+				<li>
+					<label class="plan_rs">Fale + 30</label>
+					<span>R$</span><div id="talk30"></div>
+    				<input id="plan30" type="text" class="form-control" placeholder="-" disabled>
+				</li>
+				<span class="verticalLine"></span>
+				<li>
+					<label class="plan_rs">Fale + 60</label>
+					<span>R$</span><div id="talk60"></div>
+    				<input id="plan60" type="text" class="form-control" placeholder="-" disabled>
+				</li>
+				<span class="verticalLine"></span>
+				<li>
+					<label class="plan_rs">Fale + 120</label>
+					<span>R$</span><div id="talk120"></div>
+    				<input id="plan120" type="text" class="form-control" placeholder="-" disabled>
+				</li>
+				<span class="verticalLine"></span>
+				<li>
+					<label class="plan_rs">Normal</label>
+					<span>R$</span><div id="talk0"></div>
+    				<input id="plan0" type="text" class="form-control" placeholder="-" disabled>
+				</li>
+			</ul>
+		</div>
+		<!-- <script src="js/main.js"></script> -->
+		<script src="js/main.min.js"></script> 
+		<script src="js/jQuery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

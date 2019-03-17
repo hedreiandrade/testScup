@@ -1,0 +1,153 @@
+/* 
+ * Desenvolver: Hedrei Andrade
+ * hedreiandrade@gmail.com
+*/
+
+.innerCalculation {
+	width: 45%;
+    margin: auto;
+    margin-top: -25px;
+    margin-left: 23.5%;
+}
+.innerLogo {
+  margin: 0 auto;
+  width: 15%;
+}
+.logo{
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+.innerPlans{
+  margin: 0 auto;
+  width: 17%;
+}
+
+.line p,
+.line2 p{
+    border-bottom: 2.5px solid;
+    width: 24%;
+    margin-left: 37%;
+    color: #F5F5F5;
+    margin-bottom: 3%;
+}
+.line p{
+	margin-top: -2%;
+}
+.line2 p{
+	margin-top: 3%;
+}
+
+.verticalLine {
+    border-left: 2px solid;
+    color: #F5F5F5;
+    position: relative;
+    left: 30px;
+    top: -16px;
+}
+
+#valueTime,
+.origin,
+.destination{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+}
+.origin,
+.destination{
+	width: 70px;
+}
+#valueTime{
+	width: 60px;
+}
+
+.menu ul {
+	margin-left: -30px;
+}
+.menu ul li { 
+	display: inline-block; 
+	list-style:none;
+	font-size: 13px;
+}
+.menu .titlePlans{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.calculation ul li { 
+	display: inline-block; 
+	list-style:none;
+	margin-top: 4%;
+	margin-left: 9%;
+}
+
+.plan_rs{
+	color: #A9A9A9;
+	font-size: 13px;
+	font-weight: 600;
+}
+label.plan_rs{
+	margin-left: 28px;
+}
+
+span.plus{
+	font-size: 30px;
+}
+span.plus1,
+span.plus2,
+span.plus3{
+	position: relative;
+}
+span.plus1{
+    left: -13px;
+    top: -20px;
+    color: #C0C0C0;
+    font-size: 25px;
+}
+span.plus2{
+    left: -16px;
+    top: -30px;
+    color: #D3D3D3;
+    font-size: 20px;
+}
+span.plus3{
+	left: -18px;
+	top: -42px;
+	color: #F5F5F5;
+	font-size: 15px;
+}
+
+input {
+	text-align: center;
+}
+
+#errorMsg{
+	margin-left: -35px;
+    width: 218px;
+}
+
+#talk0,
+#talk30,
+#talk60,
+#talk120{
+	color: #A9A9A9;
+}
+#plan0,
+#plan30,
+#plan60,
+#plan120{
+    border: none;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: -25px;
+    color: #A9A9A9;
+}
+
+#plan0[disabled],
+#plan30[disabled],
+#plan60[disabled],
+#plan120[disabled] {
+    background-color: white;
+}
+
+
