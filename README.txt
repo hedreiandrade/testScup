@@ -1,7 +1,7 @@
 Sou desenvolver Back-and(PHP) e Front-end a mais de 12 anos.
 Para executar a aplicação acesso o link : http://localhost/testScup/
 
-O projeto foi desenvolvido utilizando:
+O projeto foi desenvolvido na unha utilizando:
 
  - HTML5
  - Bootstrap
