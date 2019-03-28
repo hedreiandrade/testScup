@@ -10,4 +10,4 @@ O projeto foi desenvolvido na unha utilizando:
  - CSS3 - Aplicando SMACSS
  - APIs fornecidas
 
- []'s
+ []s
