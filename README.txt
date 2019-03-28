@@ -1,4 +1,4 @@
-Sou desenvolver Back-End(PHP) e Front-end a mais de 12 anos.
+Sou desenvolver Back-End(PHP) e Front-End a mais de 12 anos.
 Para executar a aplicação acesso o link : http://localhost/testScup/
 
 O projeto foi desenvolvido na unha utilizando:
